@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-khamraev-m-b-накладная-e",
+  "editForm": "i-i-s-khamraev-m-b-накладная-e",
+  "external": false,
+  "caption": "Накладная",
+  "name": "IISKhamraevMBНакладнаяL",
+  "className": "НакладнаяL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-khamraev-m-b-накладная",
+      "modelProjection": "НакладнаяL"
+    }
+  ]
+}

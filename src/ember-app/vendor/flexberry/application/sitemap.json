@@ -1,0 +1,81 @@
+﻿{
+  "applicationCaption": "Khamraev MB",
+  "applicationTitle": "Khamraev MB",
+  "items": [
+    {
+      "link": null,
+      "menuName": "khamraev-m-b",
+      "caption": "KhamraevMB",
+      "title": "KhamraevMB",
+      "children": [
+        {
+          "link": null,
+          "menuName": "информация-о-заказе",
+          "caption": "Информация о заказе",
+          "title": "Информация о заказе",
+          "children": [
+            {
+              "link": "i-i-s-khamraev-m-b-накладная-l",
+              "menuName": null,
+              "caption": "Накладная",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-khamraev-m-b-заказ-l",
+              "menuName": null,
+              "caption": "Заказ",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-khamraev-m-b-документ-l",
+              "menuName": null,
+              "caption": "Документ",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "товар-на-складе",
+          "caption": "Товар на складе",
+          "title": "Товар на складе",
+          "children": [
+            {
+              "link": "i-i-s-khamraev-m-b-склад-l",
+              "menuName": null,
+              "caption": "Склад",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-khamraev-m-b-товар-l",
+              "menuName": null,
+              "caption": "Товар",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "сотрудники",
+          "caption": "Сотрудники",
+          "title": "Сотрудники",
+          "children": [
+            {
+              "link": "i-i-s-khamraev-m-b-сотрудник-l",
+              "menuName": null,
+              "caption": "Сотрудник",
+              "title": "",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

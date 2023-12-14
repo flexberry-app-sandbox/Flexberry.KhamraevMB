@@ -1,0 +1,48 @@
+﻿{
+  "name": "IISKhamraevMBТоварНаСкладе",
+  "modelName": "i-i-s-khamraev-m-b-товар-на-складе",
+  "className": "ТоварНаСкладе",
+  "nameSpace": "IIS.KhamraevMB",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "ряд",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "товар",
+      "relatedTo": "i-i-s-khamraev-m-b-товар",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "склад",
+      "relatedTo": "i-i-s-khamraev-m-b-склад",
+      "inverse": "товарНаСкладе"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТоварНаСкладеE",
+      "modelName": "i-i-s-khamraev-m-b-товар-на-складе",
+      "attrs": [],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

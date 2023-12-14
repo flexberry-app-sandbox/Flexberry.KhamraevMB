@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-khamraev-m-b-склад-e",
+  "editForm": "i-i-s-khamraev-m-b-склад-e",
+  "external": false,
+  "caption": "Склад",
+  "name": "IISKhamraevMBСкладL",
+  "className": "СкладL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-khamraev-m-b-склад",
+      "modelProjection": "СкладL"
+    }
+  ]
+}

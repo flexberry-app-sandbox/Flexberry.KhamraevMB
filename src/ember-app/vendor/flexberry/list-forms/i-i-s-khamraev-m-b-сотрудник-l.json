@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-khamraev-m-b-сотрудник-e",
+  "editForm": "i-i-s-khamraev-m-b-сотрудник-e",
+  "external": false,
+  "caption": "Сотрудник",
+  "name": "IISKhamraevMBСотрудникL",
+  "className": "СотрудникL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-khamraev-m-b-сотрудник",
+      "modelProjection": "СотрудникL"
+    }
+  ]
+}
