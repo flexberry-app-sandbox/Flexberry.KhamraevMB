@@ -32,19 +32,19 @@ export default Controller.extend({
               link: 'i-i-s-khamraev-m-b-накладная-l',
               caption: i18n.t('forms.application.sitemap.khamraev-m-b.информация-о-заказе.i-i-s-khamraev-m-b-накладная-l.caption'),
               title: i18n.t('forms.application.sitemap.khamraev-m-b.информация-о-заказе.i-i-s-khamraev-m-b-накладная-l.title'),
-              icon: 'archive',
+              icon: 'briefcase',
               children: null
             }, {
               link: 'i-i-s-khamraev-m-b-заказ-l',
               caption: i18n.t('forms.application.sitemap.khamraev-m-b.информация-о-заказе.i-i-s-khamraev-m-b-заказ-l.caption'),
               title: i18n.t('forms.application.sitemap.khamraev-m-b.информация-о-заказе.i-i-s-khamraev-m-b-заказ-l.title'),
-              icon: 'archive',
+              icon: 'calendar',
               children: null
             }, {
               link: 'i-i-s-khamraev-m-b-документ-l',
               caption: i18n.t('forms.application.sitemap.khamraev-m-b.информация-о-заказе.i-i-s-khamraev-m-b-документ-l.caption'),
               title: i18n.t('forms.application.sitemap.khamraev-m-b.информация-о-заказе.i-i-s-khamraev-m-b-документ-l.title'),
-              icon: 'tags',
+              icon: 'address card',
               children: null
             }]
           }, {
@@ -55,13 +55,13 @@ export default Controller.extend({
               link: 'i-i-s-khamraev-m-b-склад-l',
               caption: i18n.t('forms.application.sitemap.khamraev-m-b.товар-на-складе.i-i-s-khamraev-m-b-склад-l.caption'),
               title: i18n.t('forms.application.sitemap.khamraev-m-b.товар-на-складе.i-i-s-khamraev-m-b-склад-l.title'),
-              icon: 'address card',
+              icon: 'folder open',
               children: null
             }, {
               link: 'i-i-s-khamraev-m-b-товар-l',
               caption: i18n.t('forms.application.sitemap.khamraev-m-b.товар-на-складе.i-i-s-khamraev-m-b-товар-l.caption'),
               title: i18n.t('forms.application.sitemap.khamraev-m-b.товар-на-складе.i-i-s-khamraev-m-b-товар-l.title'),
-              icon: 'list',
+              icon: 'paperclip',
               children: null
             }]
           }, {
@@ -72,7 +72,6 @@ export default Controller.extend({
               link: 'i-i-s-khamraev-m-b-сотрудник-l',
               caption: i18n.t('forms.application.sitemap.khamraev-m-b.сотрудники.i-i-s-khamraev-m-b-сотрудник-l.caption'),
               title: i18n.t('forms.application.sitemap.khamraev-m-b.сотрудники.i-i-s-khamraev-m-b-сотрудник-l.title'),
-              icon: 'phone',
               children: null
             }]
           }]
