@@ -66,10 +66,28 @@
       "modelName": "i-i-s-khamraev-m-b-товар-на-складе",
       "attrs": [
         {
+          "name": "этаж",
+          "caption": "Этаж",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "ряд",
+          "caption": "Ряд",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "ячейкаТовара",
+          "caption": "Ячейка Товара",
+          "hidden": false,
+          "index": 2
+        },
+        {
           "name": "количество",
           "caption": "Количество",
           "hidden": false,
-          "index": 0
+          "index": 3
         }
       ],
       "belongsTo": [],

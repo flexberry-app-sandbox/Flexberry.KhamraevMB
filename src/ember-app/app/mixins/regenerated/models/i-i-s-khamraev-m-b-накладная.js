@@ -84,7 +84,7 @@ export let defineProjections = function (modelClass) {
     датаОтгрузки: attr('Дата отгрузки', { index: 2 }),
     вес: attr('Вес', { index: 3 }),
     статус: attr('Статус', { index: 4 }),
-    фИОПолучателя: attr('Ф и о получателя', { index: 5 }),
+    фИОПолучателя: attr('ФИО получателя', { index: 5 }),
     записьВНакладной: hasMany('i-i-s-khamraev-m-b-запись-в-накладной', 'Запись в накладной', {
       сумма: attr('Сумма', { index: 0 }),
       количество: attr('Количество', { index: 1 }),

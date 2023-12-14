@@ -30,6 +30,9 @@ namespace IIS.KhamraevMB
     [Caption("Товар на складе")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("ТоварНаСкладеE", new string[] {
+            "Этаж as \'Этаж\'",
+            "Ряд as \'Ряд\'",
+            "ЯчейкаТовара as \'Ячейка Товара\'",
             "Количество as \'Количество\'"})]
     public class ТоварНаСкладе : ICSSoft.STORMNET.DataObject
     {

@@ -46,7 +46,10 @@ export let defineProjections = function (modelClass) {
     номер: attr('Номер', { index: 0 }),
     адрес: attr('Адрес', { index: 1 }),
     товарНаСкладе: hasMany('i-i-s-khamraev-m-b-товар-на-складе', 'Товар на складе', {
-      количество: attr('Количество', { index: 0 })
+      этаж: attr('Этаж', { index: 0 }),
+      ряд: attr('Ряд', { index: 1 }),
+      ячейкаТовара: attr('Ячейка Товара', { index: 2 }),
+      количество: attr('Количество', { index: 3 })
     })
   });
 
