@@ -7,7 +7,34 @@
   "parentClassName": null,
   "attrs": [
     {
+      "name": "количество",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
       "name": "ряд",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "этаж",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "ячейкаТовара",
       "type": "string",
       "flexberryType": "string",
       "notNull": false,
@@ -37,7 +64,14 @@
     {
       "name": "ТоварНаСкладеE",
       "modelName": "i-i-s-khamraev-m-b-товар-на-складе",
-      "attrs": [],
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 0
+        }
+      ],
       "belongsTo": [],
       "hasMany": []
     }

@@ -36,6 +36,12 @@ namespace IIS.KhamraevMB
         
         private string fРяд;
         
+        private string fЭтаж;
+        
+        private string fЯчейкаТовара;
+        
+        private string fКоличество;
+        
         private IIS.KhamraevMB.Товар fТовар;
         
         private IIS.KhamraevMB.Склад fСклад;
@@ -44,6 +50,38 @@ namespace IIS.KhamraevMB
 
         // *** End programmer edit section *** (ТоварНаСкладе CustomMembers)
 
+        
+        /// <summary>
+        /// Количество.
+        /// </summary>
+        // *** Start programmer edit section *** (ТоварНаСкладе.Количество CustomAttributes)
+
+        // *** End programmer edit section *** (ТоварНаСкладе.Количество CustomAttributes)
+        [StrLen(255)]
+        public virtual string Количество
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ТоварНаСкладе.Количество Get start)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.Количество Get start)
+                string result = this.fКоличество;
+                // *** Start programmer edit section *** (ТоварНаСкладе.Количество Get end)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.Количество Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ТоварНаСкладе.Количество Set start)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.Количество Set start)
+                this.fКоличество = value;
+                // *** Start programmer edit section *** (ТоварНаСкладе.Количество Set end)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.Количество Set end)
+            }
+        }
         
         /// <summary>
         /// Ряд.
@@ -74,6 +112,70 @@ namespace IIS.KhamraevMB
                 // *** Start programmer edit section *** (ТоварНаСкладе.Ряд Set end)
 
                 // *** End programmer edit section *** (ТоварНаСкладе.Ряд Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Этаж.
+        /// </summary>
+        // *** Start programmer edit section *** (ТоварНаСкладе.Этаж CustomAttributes)
+
+        // *** End programmer edit section *** (ТоварНаСкладе.Этаж CustomAttributes)
+        [StrLen(255)]
+        public virtual string Этаж
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ТоварНаСкладе.Этаж Get start)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.Этаж Get start)
+                string result = this.fЭтаж;
+                // *** Start programmer edit section *** (ТоварНаСкладе.Этаж Get end)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.Этаж Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ТоварНаСкладе.Этаж Set start)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.Этаж Set start)
+                this.fЭтаж = value;
+                // *** Start programmer edit section *** (ТоварНаСкладе.Этаж Set end)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.Этаж Set end)
+            }
+        }
+        
+        /// <summary>
+        /// ЯчейкаТовара.
+        /// </summary>
+        // *** Start programmer edit section *** (ТоварНаСкладе.ЯчейкаТовара CustomAttributes)
+
+        // *** End programmer edit section *** (ТоварНаСкладе.ЯчейкаТовара CustomAttributes)
+        [StrLen(255)]
+        public virtual string ЯчейкаТовара
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ТоварНаСкладе.ЯчейкаТовара Get start)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.ЯчейкаТовара Get start)
+                string result = this.fЯчейкаТовара;
+                // *** Start programmer edit section *** (ТоварНаСкладе.ЯчейкаТовара Get end)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.ЯчейкаТовара Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ТоварНаСкладе.ЯчейкаТовара Set start)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.ЯчейкаТовара Set start)
+                this.fЯчейкаТовара = value;
+                // *** Start programmer edit section *** (ТоварНаСкладе.ЯчейкаТовара Set end)
+
+                // *** End programmer edit section *** (ТоварНаСкладе.ЯчейкаТовара Set end)
             }
         }
         

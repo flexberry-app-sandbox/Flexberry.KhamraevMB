@@ -5,14 +5,35 @@ import { validator } from 'ember-cp-validations';
 import { attr, belongsTo, hasMany } from 'ember-flexberry-data/utils/attributes';
 
 export let Model = Mixin.create({
+  количество: DS.attr('string'),
   ряд: DS.attr('string'),
+  этаж: DS.attr('string'),
+  ячейкаТовара: DS.attr('string'),
   товар: DS.belongsTo('i-i-s-khamraev-m-b-товар', { inverse: null, async: false }),
   склад: DS.belongsTo('i-i-s-khamraev-m-b-склад', { inverse: 'товарНаСкладе', async: false })
 });
 
 export let ValidationRules = {
+  количество: {
+    descriptionKey: 'models.i-i-s-khamraev-m-b-товар-на-складе.validations.количество.__caption__',
+    validators: [
+      validator('ds-error'),
+    ],
+  },
   ряд: {
     descriptionKey: 'models.i-i-s-khamraev-m-b-товар-на-складе.validations.ряд.__caption__',
+    validators: [
+      validator('ds-error'),
+    ],
+  },
+  этаж: {
+    descriptionKey: 'models.i-i-s-khamraev-m-b-товар-на-складе.validations.этаж.__caption__',
+    validators: [
+      validator('ds-error'),
+    ],
+  },
+  ячейкаТовара: {
+    descriptionKey: 'models.i-i-s-khamraev-m-b-товар-на-складе.validations.ячейкаТовара.__caption__',
     validators: [
       validator('ds-error'),
     ],
@@ -35,6 +56,6 @@ export let ValidationRules = {
 
 export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ТоварНаСкладеE', 'i-i-s-khamraev-m-b-товар-на-складе', {
-    
+    количество: attr('Количество', { index: 0 })
   });
 };

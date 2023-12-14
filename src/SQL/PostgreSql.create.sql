@@ -42,7 +42,10 @@ CREATE TABLE ЗаписьВНакладной (
 
 CREATE TABLE ТоварНаСкладе (
  primaryKey UUID NOT NULL,
+ Количество VARCHAR(255) NULL,
  Ряд VARCHAR(255) NULL,
+ Этаж VARCHAR(255) NULL,
+ ЯчейкаТовара VARCHAR(255) NULL,
  Товар UUID NOT NULL,
  Склад UUID NOT NULL,
  PRIMARY KEY (primaryKey));

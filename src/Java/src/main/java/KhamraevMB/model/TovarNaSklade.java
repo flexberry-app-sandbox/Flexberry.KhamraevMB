@@ -25,6 +25,15 @@ public class TovarNaSklade {
     @Column(name = "Ряд")
     private String ряд;
 
+    @Column(name = "Этаж")
+    private String этаж;
+
+    @Column(name = "ЯчейкаТовара")
+    private String ячейкатовара;
+
+    @Column(name = "Количество")
+    private String количество;
+
     @EdmIgnore
     @Converter(converterClass = UUIDConverter.class, name = "Tovar")
     @Convert("Tovar")
@@ -64,6 +73,30 @@ public class TovarNaSklade {
 
     public void setРяд(String ряд) {
       this.ряд = ряд;
+    }
+
+    public String getЭтаж() {
+      return этаж;
+    }
+
+    public void setЭтаж(String этаж) {
+      this.этаж = этаж;
+    }
+
+    public String getЯчейкаТовара() {
+      return ячейкатовара;
+    }
+
+    public void setЯчейкаТовара(String ячейкатовара) {
+      this.ячейкатовара = ячейкатовара;
+    }
+
+    public String getКоличество() {
+      return количество;
+    }
+
+    public void setКоличество(String количество) {
+      this.количество = количество;
     }
 
 
